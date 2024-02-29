@@ -3,3 +3,55 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header h1 {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style and center nav links */
+nav a {
+  padding: 0 10px;
+  background-color: grey; /* Feel free to choose your color */
+  color: white; /* Adjust text color for visibility */
+  text-decoration: none; /* Optional: removes underline from links */
+}
+
+nav {
+  text-align: center;
+}
+
+/* Style the image caption */
+#featured-property figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+/* Center text blocks and set width */
+#featured-property p {
+  width: 800px;
+  margin: 10px auto; /* Adds vertical space and centers horizontally */
+  text-align: center;
+}
+
+/* Make the details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+  background-color: #f0f0f0; /* Choose your preferred color */
+  text-align: center;
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  padding: 10px;
+}
+
+/* Clear floats */
+#details:after {
+  content: "";
+  display: table;
+  clear: both;
+}
